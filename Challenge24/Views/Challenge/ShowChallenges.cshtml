@@ -1,0 +1,17 @@
+﻿@using Challenge24.Models.ChallengeModels
+@model IEnumerable<Challenge>
+@{
+    ViewData["Title"] = "ShowChallenges";
+}
+
+<table class="table">
+    @foreach (var challenge in Model)
+    {
+        <tr>
+            <td></td>
+            <td>@challenge.Name</td>
+            <td>@challenge.Description</td>
+        </tr>
+    }
+</table>
+

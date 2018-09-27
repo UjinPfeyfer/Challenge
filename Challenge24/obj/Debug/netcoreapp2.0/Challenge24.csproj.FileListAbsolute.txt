@@ -1,0 +1,12 @@
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\bin\Debug\netcoreapp2.0\Challenge24.deps.json
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\bin\Debug\netcoreapp2.0\Challenge24.runtimeconfig.json
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\bin\Debug\netcoreapp2.0\Challenge24.runtimeconfig.dev.json
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\bin\Debug\netcoreapp2.0\Challenge24.dll
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\bin\Debug\netcoreapp2.0\Challenge24.pdb
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\obj\Debug\netcoreapp2.0\Challenge24.csprojAssemblyReference.cache
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\obj\Debug\netcoreapp2.0\Challenge24.csproj.CoreCompileInputs.cache
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\obj\Debug\netcoreapp2.0\Challenge24.AssemblyInfoInputs.cache
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\obj\Debug\netcoreapp2.0\Challenge24.AssemblyInfo.cs
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\obj\Debug\netcoreapp2.0\Challenge24.dll
+C:\Users\Евгений\source\repos\Challenge24\Challenge24\obj\Debug\netcoreapp2.0\Challenge24.pdb
