@@ -1,0 +1,17 @@
+﻿@using Challenge24.Models.ChallengeModels
+@model IEnumerable<Outline>
+@{
+    ViewData["Title"] = "ShowChallenges";
+}
+
+<table class="table">
+    @foreach (var outline in Model)
+    {
+        <tr>
+            <td></td>
+            <td>@outline.Name</td>
+            <td>@outline.Description</td>
+        </tr>
+    }
+</table>
+

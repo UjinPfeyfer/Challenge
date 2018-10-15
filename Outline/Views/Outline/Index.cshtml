@@ -1,0 +1,22 @@
+﻿@using Challenge24.Models.ChallengeModels
+@model IEnumerable<Outline>
+@{
+    ViewData["Title"] = "ShowOutline";
+}
+
+<table class="table">
+    @foreach (var outline in Model)
+    {
+    <tr>
+        <td></td>
+        <td>
+        <td><a asp-area="" asp-controller="Outline" asp-action="Show" asp-route-id="@outline.OutlineId" class="navbar-brand">@outline.Name</a></td>
+        
+        <td>@outline.Description</td>
+        <td><a asp-area="" asp-controller="Outline" asp-action="Join" asp-route-id="@outline.OutlineId" class="navbar-brand">join</a></td>
+        <td><a asp-area="" asp-controller="Outline" asp-action="Edit" asp-route-id="@outline.OutlineId" class="navbar-brand">Edit</a></td>
+        <td><a asp-area="" asp-controller="Outline" asp-action="Remove" asp-route-id="@outline.OutlineId" class="navbar-brand">Remove</a></td>
+    </tr>
+    }
+</table>
+

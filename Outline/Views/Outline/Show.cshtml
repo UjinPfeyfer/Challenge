@@ -1,0 +1,55 @@
+﻿@model Challenge24.Models.ChallengeModels.Outline
+
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h2>Show</h2>
+
+<div>
+    <h4>Challenge</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+        <dd>
+            <markdown>@Html.DisplayFor(model => model.Content)</markdown>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+
+
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.OutlineId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<div>
+    <form asp-action="Show">
+        <input type="hidden" id="ID" name="OutlineId" value="@Model.OutlineId">
+        <input type="text" id="comment" name="comment">
+        <input type="submit" >
+    </form>
+</div>
+
+@await Component.InvokeAsync("Comment", new { @Model.OutlineId });

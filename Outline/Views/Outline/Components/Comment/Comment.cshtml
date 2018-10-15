@@ -1,0 +1,13 @@
+﻿@using Challenge24.Models.ChallengeModels
+
+@model IEnumerable<Commen>
+
+@foreach (var commen in Model)
+{
+    <div>
+        <p>@commen.ApplicationUser.UserName</p>
+        <p>@commen.CommentText</p>
+    </div>
+}
+
+
